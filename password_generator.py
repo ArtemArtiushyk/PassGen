@@ -1,6 +1,8 @@
 import random
 import string
 
+print("Hello, user!! ;)")
+
 try:
 
     def generate(length: int):
