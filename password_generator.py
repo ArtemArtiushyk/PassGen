@@ -34,5 +34,3 @@ except KeyboardInterrupt:
 >>>> You quitted. Goodbye!
 """
     )
-
-# TODO: fix SR
