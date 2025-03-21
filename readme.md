@@ -1,5 +1,9 @@
 # PassGen
-### A simple, fast CLI password generator, made on python, that makes a strong password out of letters and numbers.
+### A simple, fast password generator, made on python, that makes a strong password out of letters and numbers.
 PassGen lets you choose the length of your password, has interactive and simple design.
 
-Program interface coming soon. 😉
+Choose between cli program or Tk.
+
+You have to install Python first:
+    Windows: [Install Python for Windows](https://www.python.org/downloads/)
+Program interface coming soon.
