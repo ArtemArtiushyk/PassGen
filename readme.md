@@ -30,3 +30,5 @@
 #### The command line will ask you to choose cli or Tk. You should choose. 
 
 #### 🎉🎉Congrats! You started the program! Success with use!🎉🎉
+# ---------------------
+# I USE ARCH BTW.
