@@ -1,6 +1,6 @@
 import random
 import string
-from tkinter import *
+from tkinter import Toplevel, Label, Entry, Button, Text, Tk, END
 
 
 class Tkinter:
@@ -37,6 +37,7 @@ class Tkinter:
 
             tent1 = Entry(top, width=20)
             tent1.pack()
+            tent1.bind(generate)
 
             tbut1 = Button(top, text="Generate", command=generate)
             tbut1.pack()
@@ -76,6 +77,14 @@ You can scroll btw""",
             font="Arial 18",
         )
         lab2.pack()
+
+        lab3 = Label(
+            root,
+            text="""Generating A LOT of symbols can slow down your device or
+            break the app.
+            But it depends on your device strength.""",
+        )
+        lab3.pack()
 
         but1 = Button(root, text="Generate password", command=menu)
         but1.pack()
