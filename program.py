@@ -10,7 +10,11 @@ class Tkinter:
             def generate():
                 try:
                     length = int(tent1.get())
-                    characters = string.ascii_letters + string.digits
+                    characters = (
+                        string.ascii_letters
+                        + string.digits
+                        + string.punctuation
+                    )
                     password = ""
 
                     for i in range(length):
@@ -86,7 +90,9 @@ You can scroll btw""",
         )
         lab3.pack()
 
-        but1 = Button(root, text="Generate password", command=menu)
+        but1 = Button(
+            root, text="Generate password", bg="lightgreen", command=menu
+        )
         but1.pack()
 
         root.mainloop()
